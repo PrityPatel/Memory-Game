@@ -1,5 +1,7 @@
 ##MVP:
 
+  As a player, I would like to see the title of the game on the page, so I know what the game is.
+
   As a player, I would like to see the images of the cards I click on, so I know if I matched the cards.
 
   As a player, I would like to see the cards kept face up if I matched, so that I know what cards I should not click on again.
@@ -16,5 +18,9 @@
   As a player, I would like to win or unlock a prize once the board is complete, because it provides incentive.
 
   As a player, I would like to get feedback on what to do next once I have completed the board, so that I know how to get or unlock my prize.
+
+  As the card dealer, I would like to know your name, so I can personalize messages to the player.
+
+  As a player, I would like to see my messages personalized with my name, so I feel special.
 
 
