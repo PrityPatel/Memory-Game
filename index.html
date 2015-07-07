@@ -1,67 +1,88 @@
 <!DOCTYPE html>
 <html>
-<style>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Concentrate your way to a Fortune!</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 
-.table {
-border: 3px solid black;
-width: 315px;
-height: 260px;
-padding: 3px solid-black;
-margin:
-}
-
-button {
-  height: 85px;
-  width: 75px;
-  border: 1px solid-black;
-}
-
-.row1 {
-  display: inline;
-  background-color: gray;
-  color: white;
-}
-
-.row2 {
-  display: inline;
-  background-color: purple;
-  color: gray;
-}
-
-.row3 {
-  display: inline;
-  background-color: gray;
-  color: white;
-}
-
-</style>
-
-</style>
-
-</style>
+</head>
 <body>
+  <div>
+    <header class ="title">
+        <h1>CONCENTRATE AND RECEIVE YOUR FORTUNE...</h1>
+    </header>
+  </div>
 
 <tbody>
-<div class="table">
+<div class="memory_board">
   <div>
-    <button class="row1" id='card1'>Card 1</button>
-    <button class="row1" id='card2'>Card 2</button>
-    <button class="row1" id='card3'>Card 3</button>
-    <button class="row1" id='card4'>Card 4</button>
+    <button class="cards" id='card1'>Card 1</button>
+    <button class="cards" id='card2'>Card 2</button>
+    <button class="cards" id='card3'>Card 3</button>
+    <button class="cards" id='card4'>Card 4</button>
   </div>
   <div>
-    <button class="row2" id='card5'>Card 5</button>
-    <button class="row2" id='card6'>Card 6</button>
-    <button class="row2" id='card7'>Card 7</button>
-    <button class="row2" id='card8'>Card 8</button>
+    <button class="cards" id='card5'>Card 5</button>
+    <button class="cards" id='card6'>Card 6</button>
+    <button class="cards" id='card7'>Card 7</button>
+    <button class="cards" id='card8'>Card 8</button>
   </div>
   <div>
-    <button class ="row3" id='card10'>Card 9</button>
-    <button class ="row3" id='card11'>Card 10</button>
-    <button class ="row3" id='card12'>Card 11</button>
-    <button class ="row3" id='card13'>Card 12</button>
+    <button class ="cards" id='card10'>Card 9</button>
+    <button class ="cards" id='card11'>Card 10</button>
+    <button class ="cards" id='card12'>Card 11</button>
+    <button class ="cards" id='card13'>Card 12</button>
   </div>
 </div>
+
+<div class="fortune-header">
+  <h2 id="left">Your Fortune is tied to Your Focus.</h2>
+  <h2 id="center">How many tries did it take for you to find ALL of the matching cards???</h2>
+  <h2 id="center">Your number of tries is the key to your fortune!</h2>
+  <h2 id="right">Scroll Down for Your Customized Fortune...</h2>
+</div>
+
+<div class="fortune-list">
+  <ol start="6" type="I">
+    <li>Be honest. Did you cheat?</li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+</div>
+
+<div>
+  <footer class="title">
+    <h1>Play again for another fortune!</h1>
+  </footer>
+</div>
+
+<script type="text/javascript" src ="js/main.js"></script>
 
 </body>
 </html>

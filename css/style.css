@@ -1,6 +1,102 @@
 
-  body{
-    padding: 0;
-    margin: 0;
-  }
+body {
+  padding: 0;
+  margin: 0;
+}
 
+header {
+  background-color: gray;
+  width 100%;
+  height: 85px;
+}
+
+.title {
+  padding: 10px;
+}
+
+h1  {
+  text-align: center;
+  text-shadow: 1px 1px 1px #ff2d95;
+}
+
+.memory_board {
+  background-color: transparent;
+  border: 30px solid black;
+  width: 315px;
+  height: 260px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+button {
+  height: 85px;
+  width: 75px;
+  border: 1px solid-black;
+}
+
+.cards {
+  display: inline;
+  background-color: purple;
+  color: white;
+}
+
+/*.row2 {
+  display: inline;
+  background-color: purple;
+  color: white;
+}
+
+.row3 {
+  display: inline;
+  background-color: purple;
+  color: white;
+}*/
+
+.fortune-header {
+  background-color: gray;
+  margin-bottom: 0 auto;
+
+}
+
+h2 {
+  color: white;
+  text-shadow: 1px 1px 1px #ff2d95;
+  margin-bottom: 0px;
+/*  margin-right: 10px;*/
+}
+
+#left {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+#center {
+  text-align: center;
+}
+
+#right {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.fortune-list {
+  border: 30px solid purple;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+li {
+  margin: 5px
+  text-align: left;
+  font-style: italic;
+}
+
+footer {
+  background-color: gray;
+  width 100%;
+  height: 85px;
+  text-decoration: underline;
+  margin-bottom: 0 auto;
+}
