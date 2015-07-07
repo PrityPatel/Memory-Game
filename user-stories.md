@@ -4,15 +4,17 @@
 
   As a player, I would like to see the images of the cards I click on, so I know if I matched the cards.
 
-  As a player, I would like to see the cards kept face up if I matched, so that I know what cards I should not click on again.
-
-  As a player, I would like to see something when the game is over or I have completed the board, because it provides for completion.
-
   As a player, I would like to only see the images on the cards when I click on them, so that the game isn't played for me.
 
   As a player, I would like only be able to click on a maximum of 2 cards, so that I can play another turn.
 
-  As a player, if the images don't match, the cards should only stay revealed for a max of 10 seconds, before being hidden again, so that those cards can be played again.
+  As a player, I would like to see the cards kept face up if I matched, so that I know what cards I should not click on again.
+
+  As a player, if the images don't match, the cards should only stay revealed for a max of 10 seconds, before being hidden again, so that I know which cards can be played again.
+
+  As a player, I would like to see something when the game is over or I have completed the board, because it provides for completion.
+
+
 
 
 ##Icebox:
