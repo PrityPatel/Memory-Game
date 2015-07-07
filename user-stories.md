@@ -8,7 +8,11 @@
 
   As a player, I would like to see something when the game is over or I have completed the board, because it provides for completion.
 
+  As a player, I would like to only see the images on the cards when I click on them, so that the game isn't played for me.
 
+  As a player, I would like only be able to click on a maximum of 2 cards, so that I can play another turn.
+
+  As a player, if the images don't match, the cards should only stay revealed for a max of 10 seconds, before being hidden again, so that those cards can be played again.
 
 
 ##Icebox:
