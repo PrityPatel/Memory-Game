@@ -36,7 +36,7 @@
 
 //writing a function that shuffles the array at the onset of every game and creates a new order for the classes in the array; using while loop until all indexes are set and then returns the new array.
 
-var arr = [".women-code", ] //add in all the image class names in this variable;
+var arr = [".clover", ] //add in all the image class names in this variable;
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;
@@ -63,7 +63,7 @@ var $squares =$(".square");
 $squares.on("click", function(event) {
   console.log("#" + this.id);
   this.innerHTML="";
-addClassToSquare("women-code", "#" + this.id)
+addClassToSquare("clover", "#" + this.id)
 });
 
 
