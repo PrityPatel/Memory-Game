@@ -19,6 +19,15 @@ h1  {
   text-shadow: 1px 1px 1px #ff2d95;
 }
 
+/*#player1{
+  float: left;
+}
+
+#player2{
+  float: right;
+  display: relative;
+}*/
+
 .memory_board {
   background-color: transparent;
   border: 30px solid black;
@@ -35,12 +44,18 @@ button {
   border: 1px solid-black;
 }
 
-.cards {
+.square {
   display: inline;
   background-color: purple;
   color: white;
 }
 
+.women-code {
+  background-image: url("http://assets.motherjones.com/interactives/projects/features/code/img/banner.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 /*.row2 {
   display: inline;
   background-color: purple;
