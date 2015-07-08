@@ -66,8 +66,6 @@ $squares.on("click", function(event) {
 addClassToSquare("women-code", "#" + this.id)
 });
 
-//   var $cardNumber1 =$("#1");
-// $cardNumber1.addClass("womenCode");
 
 var addClassToSquare = function(className, squareId) {
   // var $squareNumber1 = $("#1");
