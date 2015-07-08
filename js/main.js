@@ -1,26 +1,5 @@
   console.log('activate framework!');
 
-// Pseudocode?
-// When player lands on page, load page as quickly as possible
-      // do this using an Event Listener? -us jqery library load function - notated below
-
-// Reveal card image once player clicks on card.
-
-// Allow player to click on a max of 2 cards at a time.
-      // Use a 'while loop'?
-
-// Reveal card images of a max of 2 cards at a time.
-// Player gains 1 entry for every 2 cards clicked.
-// Player can keep playing until all card images have been matched
-// Number of entries should be displayed.
-      //currently no css or html displaying this
-
-// If 2 consecutively clicked cards match, leave those 2 card images revealed and do not allow those cards to be clicked again.
-// If 2 consecutively clicked cards do not match, hide revealed card images allow those cards to be clicked again.
-// Once all 12 card images have been revealed and match, alert player with message of final entries.
-//
-
-
 //**********************************
 //the following is the function to load the page using the jQuery first; "wait until DOM has finished loading and the load 'this' code."
 
@@ -31,12 +10,10 @@
 // })
 //**********************************
 
-//var counter = 0; to create an entry counter
+//writing a function that shuffles the array at the onset of every game and creates a new order for the classes in the array;
+//using while loop until all indexes are set and then returns the new array.
 
-
-//writing a function that shuffles the array at the onset of every game and creates a new order for the classes in the array; using while loop until all indexes are set and then returns the new array.
-
-var arr = [".clover", ] //add in all the image class names in this variable;
+var arr = ["chinesefortune", "cloverfortune", "catfortune", "horseshoefortune", "lovefortune", "goldpotfortune", "chinesefortune", "cloverfortune", "catfortune", "horseshoefortune", "lovefortune", "goldpotfortune"];
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;
@@ -54,30 +31,55 @@ function shuffle(array) {
     array[randomIndex] = temporaryValue;
   }
 
+  //and then return new array
   return array;
 }
+//call the function so the images are shuffled upon refresh
+shuffle(arr);
+
+//the above i understand
+//the below is i realize brings adds the respective image class onto to the board, i'm just not sure how
 
 var $squares =$(".square");
 // console.log($squares);
 
-$squares.on("click", function(event) {
+$squares.on("click", function() {
   console.log("#" + this.id);
-  this.innerHTML="";
-addClassToSquare("clover", "#" + this.id)
+  $(this).addClass(arr[parseInt(this.id)]);
+
 });
 
+//do click events
+// var clickedSquares = function(squares) {
 
-var addClassToSquare = function(className, squareId) {
-  // var $squareNumber1 = $("#1");
-  // $squareNumber1.addClass("womenCode");
-  $(squareId).addClass(className);
-};
+// };
 
 
 
 
 
+// When player lands on page, load page as quickly as possible
+      // do this using an Event Listener? -us jqery library load function - notated above; wrap everything withing jquery function
 
+// Reveal card single image once player clicks on single card.
+// Allow a max of 2 cards to be clicked for 1 entry.
+// If cards match then keep revealed and allow player to click an additional 2 cards
+
+// Allow player to click on a max of 2 cards at a time.
+
+// Reveal card images of a max of 2 cards at a time.
+
+// Player gains 1 entry for every 2 cards clicked.
+
+// Player can keep playing until all card images have been matched
+
+// Number of entries should be displayed.
+      //currently no css or html displaying this; use var = counter
+
+// If 2 consecutively clicked cards match, leave those 2 card images revealed and do not allow those cards to be clicked again.
+// If 2 consecutively clicked cards do not match, hide revealed card images allow those cards to be clicked again.
+// Once all 12 card images have been revealed and match, alert player with message of final entries.
+//
 
 // CARD 1
 

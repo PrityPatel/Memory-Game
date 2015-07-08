@@ -42,16 +42,52 @@ button {
   height: 85px;
   width: 75px;
   border: 1px solid-black;
+
 }
 
 .square {
-  display: inline;
+  display: inline-block;
   background-color: purple;
   color: white;
 }
 
-.clover {
-  background-image: url("../images/216GAhJJ-cL.jpg");
+.chinesefortune {
+  background-image: url("../images/chinesefortune.jpg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cloverfortune {
+  background-image: url("../images/clover.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.catfortune {
+  background-image: url("../images/fortunecat.jpg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.horseshoefortune {
+  background-image: url("../images/horseshoefortune.jpg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lovefortune {
+  background-image: url("../images/lovefortune.jpg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.goldpotfortune {
+  background-image: url("../images/pot-o-gold.jpg");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
