@@ -31,7 +31,7 @@
 // })
 //**********************************
 
-//var counter = 0;
+//var counter = 0; to create an entry counter
 
 
 //writing a function that shuffles the array at the onset of every game and creates a new order for the classes in the array; using while loop until all indexes are set and then returns the new array.
