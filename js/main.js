@@ -1,4 +1,4 @@
-  console.log('activate framework!');
+console.log('activate framework!')
 
 //**********************************
 //the following is the function to load the page using the jQuery first; "wait until DOM has finished loading and the load 'this' code."
@@ -43,16 +43,88 @@ shuffle(arr);
 var $squares =$(".square");
 // console.log($squares);
 
-$squares.on("click", function() {
-  console.log("#" + this.id);
-  $(this).addClass(arr[parseInt(this.id)]);
+var checkMatch= [];
+//setting variable to write functions for matching cards
 
+var clickCounter= 0;
+
+var divArray= [];
+
+$squares.on("click", function() {
+  if (clickCounter < 2) {
+  $(this).addClass(arr[parseInt(this.id)]);
+  checkMatch.push(arr[parseInt(this.id)]);
+  clickCounter++;
+  console.log(arr[parseInt(this.id)]);
+  console.log(checkMatch);
+  console.log(clickCounter);
+  divArray.push(this.id);
+  // console.log(divArray[0] + " " + divArray[1]);//push the div id to divArray
+  clickMatch();
+  // reHide();
+}
 });
 
-//do click events
-// var clickedSquares = function(squares) {
+// function clickCounter() {
+//   if (clickCounter < 2) {
+//     return clickCounter++;
+//   }
+// }
 
-// };
+function clickMatch() {
+  if (clickCounter >= 2) {
+    if (checkMatch[0] === checkMatch[1]) {
+      console.log("Good Fortune is Coming Your Way!");
+      return;
+    } else {
+      reHide();
+  }
+}
+
+
+
+function reHide(square) {
+  if (clickCounter >= 2) {
+    // console.log(checkMatch[0]==checkMatch[1]);
+
+    if (checkMatch[0] !== checkMatch[1]) {
+      console.log("Try Again. Good Fortune is Close!");
+      checkMatch = [];
+      // $(square).removeClass(arr[parseInt(square.id)]);
+  }
+      // $squares.eq(divArray[0]).removeClass().addClass("square");
+      // $squares.eq(divArray[1]).removeClass().addClass("square");
+      // divArray = [];
+    }
+      clickCounter = 0;
+  }
+}
+
+// }
+
+
+// event listener
+//  mainSquare.addEventListener('click', function getClicks(event){
+//    if(sClicks === 0){
+//      var click1= $(event.srcElement.children[0])
+//      click1.css('display', 'block');
+//      $(event.srcElement).toggleClass('egg');
+//      clickedSquares.push($(event.srcElement.children[0]));
+//      sClicks++;
+//      console.log(clickedSquares);
+
+//  }else if(sClicks === 1){
+//      $(event.srcElement.children[0]).css('display', 'block');
+//      $(event.srcElement).toggleClass('egg');
+//      clickedSquares.push($(event.srcElement.children[0]));
+//      sClicks++;
+//      console.log(clickedSquares);
+//      checkMatch();
+//  }else{
+//    clicks= 0;
+//  }
+// });
+
 
 
 

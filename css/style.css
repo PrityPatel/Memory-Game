@@ -96,7 +96,6 @@ button {
 .fortune-header {
   background-color: gray;
   margin-bottom: 0 auto;
-
 }
 
 h2 {
@@ -141,4 +140,20 @@ footer {
   margin-bottom: 0 auto;
 }
 
+@media (max-width: 500px) {
+  body {
+    background: red;
+  }
+
+ /* h1 {
+    font-color: black;
+    font-size: 36px;
+  }*/
+
+  li {
+    color: white;
+    /*display: block;*/
+    padding: 5px;
+  }
+}
 
