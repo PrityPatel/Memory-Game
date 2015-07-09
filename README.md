@@ -1,15 +1,3 @@
-# memory-game
-A Memory Game for WDI Project One
-
- Project #1: The Game
-
- ##### Concentration
-
-Sometimes just called "Memory", it's a card game in which all of the cards are
-laid face down on a surface and two cards are flipped face up over each turn.
-If you get all the matching cards, you've won!
-
-
 ### Technical Requirements
 
 Your app must:
