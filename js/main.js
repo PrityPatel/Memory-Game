@@ -115,6 +115,7 @@ function reHide() {
       clickCounter = 0;
   }
 }
+
 // }
 
 //ISSUES:
