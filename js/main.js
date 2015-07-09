@@ -37,8 +37,6 @@ function shuffle(array) {
 //call the function so the images are shuffled upon refresh
 shuffle(arr);
 
-//the above i understand
-//the below is i realize brings adds the respective image class onto to the board, i'm just not sure how
 
 var $squares =$(".square");
 // console.log($squares);
@@ -48,20 +46,28 @@ var checkMatch= [];
 
 var clickCounter= 0;
 
-var divArray= [];
+var matches= 0;
 
+var attemptsMade= 0;
+
+var reHide= 0;
+// var divArray= [];
+
+//the below is i realize adds the respective image class onto to the board, i'm just not sure how
 $squares.on("click", function() {
   if (clickCounter < 2) {
   $(this).addClass(arr[parseInt(this.id)]);
   checkMatch.push(arr[parseInt(this.id)]);
   clickCounter++;
-  console.log(arr[parseInt(this.id)]);
-  console.log(checkMatch);
-  console.log(clickCounter);
-  divArray.push(this.id);
+  attemptsMade++;
+  console.log("name of object in the array: " + arr[parseInt(this.id)]);
+  console.log("checking the match of these objects in the array: " + checkMatch);
+  console.log("how many clicks: " + clickCounter);
+  console.log("attempts made: " + attemptsMade);
+  console.log("matches: " + matches);
+  // divArray.push(this.id);
   // console.log(divArray[0] + " " + divArray[1]);//push the div id to divArray
   clickMatch();
-  // reHide();
 }
 });
 
@@ -74,84 +80,57 @@ $squares.on("click", function() {
 function clickMatch() {
   if (clickCounter >= 2) {
     if (checkMatch[0] === checkMatch[1]) {
-      console.log("Good Fortune is Coming Your Way!");
+      console.log("Keep Going. Good Fortune Is Coming Your Way!");
+      clickCounter = 0;
+      checkMatch= [];
+      matches++;
+      matchesMade();
       return;
     } else {
       reHide();
   }
 }
 
+function matchesMade() {
+  if (matches === 6) {
+    alert("Your Fortune Has Arrived. Your Fortune Number is: " + attemptsMade);
+  } else {
+    return;
+  }
+}
 
-
-function reHide(square) {
-  if (clickCounter >= 2) {
-    // console.log(checkMatch[0]==checkMatch[1]);
-
-    if (checkMatch[0] !== checkMatch[1]) {
-      console.log("Try Again. Good Fortune is Close!");
+function reHide() {
+  if (clickCounter >= 2 && checkMatch[0] !== checkMatch[1]) {
+    // $(this).removeClass(arr[parseInt(this.id)]);
+      console.log("Try Again. Your Good Fortune Is So Close!");
       checkMatch = [];
+    // console.log(checkMatch[0]==checkMatch[1]);
+    // if (checkMatch[0] !== checkMatch[1]) {
       // $(square).removeClass(arr[parseInt(square.id)]);
   }
       // $squares.eq(divArray[0]).removeClass().addClass("square");
       // $squares.eq(divArray[1]).removeClass().addClass("square");
       // divArray = [];
-    }
+
       clickCounter = 0;
   }
 }
-
 // }
 
+//ISSUES:
+//REHIDE FUNCTION IS NOT CURRENTLY COMPLETE; NEEDS TO HIDE ITEMS THAT DON'T MATCH ONCE CLICKED ON
+// If 2 consecutively clicked cards do not match, hide revealed card images and allow those cards to be clicked again.
 
-// event listener
-//  mainSquare.addEventListener('click', function getClicks(event){
-//    if(sClicks === 0){
-//      var click1= $(event.srcElement.children[0])
-//      click1.css('display', 'block');
-//      $(event.srcElement).toggleClass('egg');
-//      clickedSquares.push($(event.srcElement.children[0]));
-//      sClicks++;
-//      console.log(clickedSquares);
+//NEED TO WRITE FUNCTION SO THAT THE MATCHED ITEMS ARE NOT RECLICKABLE - KEEP THEM REVEALED
+// If 2 consecutively clicked cards match, leave those 2 card images revealed and do not allow those cards to be clicked again.
+// If cards match then keep revealed and allow player to click an additional 2 cards
 
-//  }else if(sClicks === 1){
-//      $(event.srcElement.children[0]).css('display', 'block');
-//      $(event.srcElement).toggleClass('egg');
-//      clickedSquares.push($(event.srcElement.children[0]));
-//      sClicks++;
-//      console.log(clickedSquares);
-//      checkMatch();
-//  }else{
-//    clicks= 0;
-//  }
-// });
-
-
-
-
-
+//NEED TO WRITE FUNCTION TO STOP ABILITY TO CLICK ON THE BOARD AGAIN AFTER 6 MATCHES
+// Player can keep playing until all card images have been matched
 
 // When player lands on page, load page as quickly as possible
       // do this using an Event Listener? -us jqery library load function - notated above; wrap everything withing jquery function
 
-// Reveal card single image once player clicks on single card.
-// Allow a max of 2 cards to be clicked for 1 entry.
-// If cards match then keep revealed and allow player to click an additional 2 cards
-
-// Allow player to click on a max of 2 cards at a time.
-
-// Reveal card images of a max of 2 cards at a time.
-
-// Player gains 1 entry for every 2 cards clicked.
-
-// Player can keep playing until all card images have been matched
-
-// Number of entries should be displayed.
-      //currently no css or html displaying this; use var = counter
-
-// If 2 consecutively clicked cards match, leave those 2 card images revealed and do not allow those cards to be clicked again.
-// If 2 consecutively clicked cards do not match, hide revealed card images allow those cards to be clicked again.
-// Once all 12 card images have been revealed and match, alert player with message of final entries.
-//
 
 // CARD 1
 
@@ -527,7 +506,3 @@ function reHide(square) {
 //   then stay reavealed;
 // else conceal
 // turn ++ //shows the amount of entries thus far and keeps adding upon click
-
-
-// alert: CONGRATS, YOU COMPLETED THE BOARD IN (TURN) ENTRIES. NOW MATCH THAT NUMBER TO YOUR FORTUNE BELOW!
-
