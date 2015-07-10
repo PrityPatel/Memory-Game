@@ -8,9 +8,9 @@
 
   - The premise of this game was a combination a game (Memory or Concentration) with an interactive user experience (getting a prediction when clicking a button).
 
-  - The game: Sometimes called "Memory" or "Concentration", it's a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. If you get all the matching cards, you've won! The Fortune Memory Game incorporates this by allowing a player click on 2 sqaures at a time and seeing if they are a match, if not, then trying again.
+    - The game: Sometimes called "Memory" or "Concentration", it's a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. If you get all the matching cards, you've won! The Fortune Memory Game incorporates this by allowing a player click on 2 sqaures at a time and seeing if they are a match, if not, then trying again.
 
-  - The user experience: People like the experience of getting a fortune cookie or reading their horoscopes online. The Fortune Memory Game incorporates this by tying the fortune cookie message to the amount of attempts it took a player to complete or match all sqaures on the board, hence, their "Fortune" message is directly tied to their "Focus" on the game.
+    - The user experience: People like the experience of getting a fortune cookie or reading their horoscopes online. The Fortune Memory Game incorporates this by tying the fortune cookie message to the amount of attempts it took a player to complete or match all sqaures on the board, hence, their "Fortune" message is directly tied to their "Focus" on the game.
 
 
 ## Technologies Used:
