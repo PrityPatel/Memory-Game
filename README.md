@@ -1,9 +1,13 @@
 
 # The Fortune Memory Game
 
+
+
 ## Game Description:
 
-  (ADD DESCRIPTON HERE)
+  (ADD Game DESCRIPTON HERE)
+
+
 
 ## Technologies Used:
 
@@ -12,13 +16,21 @@
   - jQuery for DOM Manipulation
   - Javascript for game logic
 
+
+
 ## Design Approach:
 
-  (ADD DESCRIPTON HERE)
+  (ADD Design Approach DESCRIPTON HERE)
+
+
+
 
 ## Installation Instructions (Getting Started):
 
-  (ADD DESCRIPTON HERE)
+  (ADD Installation Instructions DESCRIPTON HERE)
+
+
+
 
 ## Unsolved problems & issues and/or planned features:
 
@@ -41,6 +53,7 @@
     - Adding in a game over message
 
     - Adding in a reset button and function to reset the game
+
 
 ## User Stories:
 
