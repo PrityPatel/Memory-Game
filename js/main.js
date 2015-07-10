@@ -78,13 +78,15 @@ $squares.on("click", function() {
 // }
 
 function clickMatch() {
-  if (clickCounter >= 2) {
+  if (clickCounter === 2) {
     if (checkMatch[0] === checkMatch[1]) {
-      console.log("Keep Going. Good Fortune Is Coming Your Way!");
+      console.log("Good Job. Keep Going!");
+      //console.log("Keep Going. Good Fortune Is Coming Your Way!");
       clickCounter = 0;
       checkMatch= [];
-      matches++;
       matchesMade();
+      matches++;
+      console.log("matches: " + matches);
       return;
     } else {
       reHide();
@@ -92,7 +94,7 @@ function clickMatch() {
 }
 
 function matchesMade() {
-  if (matches === 6) {
+  if (clickCounter == 2 && matches === 6) {
     alert("Your Fortune Has Arrived. Your Fortune Number is: " + attemptsMade);
   } else {
     return;
@@ -100,22 +102,25 @@ function matchesMade() {
 }
 
 function reHide() {
-  if (clickCounter >= 2 && checkMatch[0] !== checkMatch[1]) {
+  if (clickCounter === 2 && checkMatch[0] !== checkMatch[1]) {
     // $(this).removeClass(arr[parseInt(this.id)]);
-      console.log("Try Again. Your Good Fortune Is So Close!");
+      console.log("Try Again.");
+      setTimeout(function() {
       checkMatch = [];
+      clickCounter = 0;
+    }, 1100);
+      console.log("WHY ISN'T THIS RE-HIDING");
     // console.log(checkMatch[0]==checkMatch[1]);
     // if (checkMatch[0] !== checkMatch[1]) {
       // $(square).removeClass(arr[parseInt(square.id)]);
-  }
       // $squares.eq(divArray[0]).removeClass().addClass("square");
       // $squares.eq(divArray[1]).removeClass().addClass("square");
       // divArray = [];
 
-      clickCounter = 0;
+      // clickCounter = 0;
   }
 }
-
+}
 // }
 
 //ISSUES:
