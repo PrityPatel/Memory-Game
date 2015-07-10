@@ -3,13 +3,13 @@
 
 
 
-### Game Description:
+## Game Description:
 
   (ADD Game DESCRIPTON HERE)
 
 
 
-### Technologies Used:
+## Technologies Used:
 
   - HTML used for the page structure
   - CSS used for styling the page
@@ -18,21 +18,21 @@
 
 
 
-### Design Approach:
+## Design Approach:
 
   (ADD Design Approach DESCRIPTON HERE)
 
 
 
 
-### Installation Instructions (Getting Started):
+## Installation Instructions (Getting Started):
 
   (ADD Installation Instructions DESCRIPTON HERE)
 
 
 
 
-### Unsolved problems & issues and/or planned features:
+## Unsolved problems & issues and/or planned features:
 
   - **Issues:**
 
@@ -55,7 +55,7 @@
     - Adding in a reset button and function to reset the game
 
 
-### User Stories:
+## User Stories:
 
   **MVP:**
 
