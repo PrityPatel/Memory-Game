@@ -62,9 +62,6 @@
 
   - [x] As a player, I would like to get feedback on what to do next once I have completed the board.
 
-  - [x] As a player, I would like to win or unlock a prize once the board is complete, because it provides incentive.
-
-
 ***Icebox:***
 
 - [ ] As a player, I would like to see a 'score' to see how many attempts I have made thus far, so that I can see progress.
@@ -73,5 +70,6 @@
 
 - [ ] As a player, I would like to see my messages personalized with my name, so I feel special.
 
+- [x] As a player, I would like to win or unlock a prize once the board is complete, because it provides incentive.
 
 
