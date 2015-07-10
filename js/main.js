@@ -2,14 +2,10 @@ console.log("ISSUE #1: NEED TO WRITE FUNCTION SO THAT THE MATCHED ITEMS ARE NOT 
 console.log("ISSUE #2: NEED TO WRITE FUNCTION TO RESET BOARD AFTER ALL 6 MATCHES ARE MADE");
 
 //**********************************
-//the following is the function to load the page using the jQuery first; "wait until DOM has finished loading and the load 'this' code."
+//the following is the function to load the page using jQuery first.
+//it basically says: "wait until DOM has finished loading and then load the following code."
 
-// $(function(){
-
-// code block here //
-
-// })
-//**********************************
+$(function(){
 
 //writing a function that shuffles the array at the onset of every game and creates a new order for the classes in the array;
 //using while loop until all indexes are set and then returns the new array.
@@ -36,7 +32,7 @@ function shuffle(array) {
 //then call the shuffle function so the images are shuffled upon refresh
 shuffle(arr);
 
-///////VARIABLES///////
+///////GLOBAL VARIABLES///////
 
 var $squares =$(".square");
 // console.log($squares);
@@ -53,7 +49,7 @@ var totalMatches= 0;
 var totalClicks= 0;
 //setting variable to keep track of how many total clicks were made on the baord as this number will be the Fortune Number that is alerted to the player once all 6 matches are made.
 
-//the below i realize adds the respective image class onto to the board, i'm not sure exactly how.
+//i realize ``` $(this).addClass(arr[parseInt(this.id)]) ``` adds the respective image class onto to the board, though i'm not sure exactly how.
 //putting console log elements into long form english, so that it easy for my 'new to coding' brain make sense of what is appearing.
 $squares.on("click", function() {
   if (matchAttempt < 2) {
@@ -101,6 +97,9 @@ function matchesMade() {
     return;
   }
 }
+
+})
+
 
 //ISSUES:
 //NEED TO WRITE FUNCTION SO THAT THE MATCHED ITEMS ARE NOT RECLICKABLE
