@@ -30,7 +30,9 @@
   - **To Play:**
 
     - Open the browser of your choice on your computer or mobile device and navigate to:
-    `http://pritypatel.github.io/`. Start clicking on the purple squares in the box. Once you have matched all the squares, an alert will appear with your Fortune Number.
+    `http://pritypatel.github.io/`.
+
+    - Start clicking on the purple squares in the box. Once you have matched all the squares, an alert will appear with your Fortune Number.
 
     - Take note of your Fortune Number and then scroll down to read the Fortune associated with your Fortune Number.
 
