@@ -18,6 +18,8 @@
 
   - [x] As a player, I would like to get feedback on what to do next once I have completed the board.
 
+  - [ ] As a player, I would like to see good Fortune descriptions written.
+
 ***Icebox:***
 
 - [ ] As a player, I would like to see a 'score' to see how many attempts I have made thus far, so that I can see progress.
