@@ -22,13 +22,13 @@
 
 ## Unsolved problems & issues and/or planned features:
 
-  ***Issues:***
+    - Issues:
 
-  - Matched items are currently reclickable: matched items should not be clickable again until board is reset.
+      - Matched items are currently reclickable: matched items should not be clickable again until board is reset.
 
-  - Board should reset after all 6 matches have been made/found
+      - Board should reset after all 6 matches have been made/found
 
-  ***Planned Features:***
+    - Planned Features:
 
   - Adding in Customized Fortunes
 
