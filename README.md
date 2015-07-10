@@ -21,9 +21,15 @@
 
 ## Design Approach:
 
-  (ADD Design Approach DESCRIPTION HERE)
+  - **Webpage:**
 
+    - In designing the webpage for this game, the approach was to incorporate minsimalism and elements of balance and simplicity. The design incorporated elements of a feng shui bagua, a Chinese religious motif incorporating the eight trigrams of the I Ching, with colors typically arranged octagonally around a symbol denoting the balance of yin and yang.
 
+    - Each color in the bagua represents different elements. For this game, I utilized:
+        - Purple, considered to be the color of abundance and prosperity
+        - Gray, considered to be the color of helpful sources and movement
+        - Black, considered to be the color of water and flow
+        - White, considered to be the color of metal and balance
 
 
 ## Installation Instructions (Getting Started):
