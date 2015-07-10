@@ -46,9 +46,9 @@
 
   ***MVP:***
 
-  [x] As a player, I would like to see the title of the game on the page, so I know what the game is.
+  - [x] As a player, I would like to see the title of the game on the page, so I know what the game is.
 
-  [x] As a player, I would like to see the images of the cards I click on, so I know if I matched the cards.
+  - [x] As a player, I would like to see the images of the cards I click on, so I know if I matched the cards.
 
   - [x] As a player, I would like to only see the images on the cards when I click on them, so that the game isn't played for me.
 
@@ -67,11 +67,11 @@
 
 ***Icebox:***
 
-- [] As a player, I would like to see a 'score' to see how many attempts I have made thus far, so that I can see progress.
+- [ ] As a player, I would like to see a 'score' to see how many attempts I have made thus far, so that I can see progress.
 
-- [] As the computer, I would like to know your name, so I can personalize messages to the player.
+- [ ] As the computer, I would like to know your name, so I can personalize messages to the player.
 
-- [] As a player, I would like to see my messages personalized with my name, so I feel special.
+- [ ] As a player, I would like to see my messages personalized with my name, so I feel special.
 
 
 
