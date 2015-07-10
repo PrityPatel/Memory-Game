@@ -5,7 +5,7 @@
 
 ## Game Description:
 
-  (ADD Game DESCRIPTON HERE)
+  (ADD Game DESCRIPTION HERE)
 
 
 
