@@ -1,26 +1,26 @@
 
 # The Fortune Memory Game
 
-  ##Game Description:
+  ## Game Description:
 
   (ADD DESCRIPTON HERE)
 
-  ***Technologies Used:***
+  ## Technologies Used:
 
   - HTML used for the page structure
   - CSS used for styling the page
-  -jQuery for DOM Manipulation
-  -Javascript for game logic
+  - jQuery for DOM Manipulation
+  - Javascript for game logic
 
-  ##Design Approach:
-
-  (ADD DESCRIPTON HERE)
-
-  ##Installation Instructions (How To Get Started):
+  ## Design Approach:
 
   (ADD DESCRIPTON HERE)
 
-  ***Unsolved problems & issues and/or planned features:***
+  ## Installation Instructions (Getting Started):
+
+  (ADD DESCRIPTON HERE)
+
+  ## Unsolved problems & issues and/or planned features:
 
   -Issues:
     -Matched items are currently reclickable: matched items should not be clickable again until board is reset.
@@ -33,6 +33,8 @@
     -Adding in a personalized message to the player
     -Adding in a game over message
     -Adding in a reset button and function to reset the game
+
+## User Stories:
 
   ***MVP:***
 
