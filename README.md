@@ -7,6 +7,7 @@
       (ADD DESCRIPTON HERE)
 
   ***Technologies Used:***
+
       - HTML/CSS
       -jQuery for DOM Manipulation
       -Javascript for functions and variables
