@@ -1,6 +1,7 @@
 
 # The Fortune Memory Game
 
+  - **A Memory Game Where Individual Focus Leads to a Customized Fortune!**
 
 
 ## Game Description:
