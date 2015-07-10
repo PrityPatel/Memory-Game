@@ -22,19 +22,13 @@
 
 ## Unsolved problems & issues and/or planned features:
 
-  Issues:
+***Issues:***
+
     - Matched items are currently reclickable: matched items should not be clickable again until board is reset.
-  - CSS used for styling the page
-  - jQuery for DOM Manipulation
-  - Javascript for game logic
-
-
-  -Issues:
-    -
-
     -Board should reset after all 6 matches have been made/found
 
-  -Planned Features:
+  ***Planned Features:***
+
     -Adding in Customized Fortunes
 
     -Adding in a 2 player option
