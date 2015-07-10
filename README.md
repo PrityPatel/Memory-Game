@@ -29,8 +29,8 @@
 
   - **To Play:**
 
-    - Open the browser on your computer or mobile device and navigate to:
-    `http://pritypatel.github.io/` and start clicking on the purple squares in the box. Once you have matched all the squares, an alert will appear with your Fortune Number.
+    - Open the browser of your choice on your computer or mobile device and navigate to:
+    `http://pritypatel.github.io/`. Start clicking on the purple squares in the box. Once you have matched all the squares, an alert will appear with your Fortune Number.
 
     - Take note of your Fortune Number and then scroll down to read the Fortune associated with your Fortune Number.
 
@@ -40,7 +40,7 @@
 
     - Create a copy or `Fork` of this repo. Do so by clicking the `Fork`  button that is located above on the right corner of this page. By forking this repo, you will now have a full working copy of all the same source files, issues, and commit history that currently exists in this repo.
 
-    - Next, to edit the code, you'll need to make a local copy of the fork. To make a local copy of a forked repo, you'll need to open up your computer Terminal and navigate to the directory where you would like to store the repo and work on it. Make sure you store it in a directory where you already have created a git directory via `git init`, otherwise, `git init` first. Once you've navigated (via the Terminal) to the directory where you would like to save the working files, go ahead and then type: `git clone https://github.com/PrityPatel/Memory-Game.git`
+    - Next, to work on the code, you'll need to make a local copy of the fork. To make a local copy of the forked repo, you'll need to open up your computer Terminal and navigate to the directory where you would like to store the repo and work on it. Make sure you store it in a directory where you already have created a git directory via `git init`, otherwise, `git init` first. Once you've navigated (via the Terminal) to the directory where you would like to save the working files, go ahead and then type: `git clone https://github.com/PrityPatel/Memory-Game.git` and follow the instructions. You may be prompted for your Github login credentials.
 
     - You now have a local copy on your computer and a remote copy on Github. Open the local files in your favorite text editor, such as Sublime Text.
 
