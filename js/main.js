@@ -31,7 +31,7 @@ function shuffle(array) {
     array[randomIndex] = temporaryValue;
   }
 
-  //and then return new array
+  //and then return a new array
   return array;
 }
 //call the function so the images are shuffled upon refresh
@@ -45,12 +45,14 @@ var checkMatch= [];
 //setting variable to write functions for matching cards
 
 var clickCounter= 0;
+//setting variable to write functions to maintain 2 clicks per turn
 
 var matches= 0;
+//setting variable to write a function to make sure that once all matches are made, then the amount of attempts made to make matches is sent as an alert to the player in the form of a Fortune Number.
 
 var attemptsMade= 0;
+//setting variable to keep track of how many attempts are made to make matches. The Fortune number is the amount of the amount of attempts made times 2 as each click counts towards the
 
-var reHide= 0;
 // var divArray= [];
 
 //the below is i realize adds the respective image class onto to the board, i'm just not sure how
@@ -79,22 +81,24 @@ $squares.on("click", function() {
 
 function clickMatch() {
   if (clickCounter === 2) {
+      console.log("value " + checkMatch[0], checkMatch[1]);
     if (checkMatch[0] === checkMatch[1]) {
       console.log("Good Job. Keep Going!");
       //console.log("Keep Going. Good Fortune Is Coming Your Way!");
-      clickCounter = 0;
       checkMatch= [];
-      matchesMade();
       matches++;
+      matchesMade();
       console.log("matches: " + matches);
+      clickCounter = 0;
       return;
     } else {
       reHide();
+    }
   }
 }
 
 function matchesMade() {
-  if (clickCounter == 2 && matches === 6) {
+  if (matches === 6) {
     alert("Your Fortune Has Arrived. Your Fortune Number is: " + attemptsMade);
   } else {
     return;
@@ -102,25 +106,15 @@ function matchesMade() {
 }
 
 function reHide() {
-  if (clickCounter === 2 && checkMatch[0] !== checkMatch[1]) {
-    // $(this).removeClass(arr[parseInt(this.id)]);
-      console.log("Try Again.");
-      setTimeout(function() {
-      checkMatch = [];
-      clickCounter = 0;
-    }, 1100);
-      console.log("WHY ISN'T THIS RE-HIDING");
-    // console.log(checkMatch[0]==checkMatch[1]);
-    // if (checkMatch[0] !== checkMatch[1]) {
-      // $(square).removeClass(arr[parseInt(square.id)]);
-      // $squares.eq(divArray[0]).removeClass().addClass("square");
-      // $squares.eq(divArray[1]).removeClass().addClass("square");
-      // divArray = [];
+  console.log("Try Again.");
+  setTimeout(function() {
+    $("." + checkMatch[0]).removeClass(checkMatch[0]);
+    $("." + checkMatch[1]).removeClass(checkMatch[1]);
+    checkMatch = [];
+    clickCounter = 0;
+  }, 1100);
+}
 
-      // clickCounter = 0;
-  }
-}
-}
 // }
 
 //ISSUES:
