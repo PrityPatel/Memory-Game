@@ -22,24 +22,25 @@
 
 ## Unsolved problems & issues and/or planned features:
 
-***Issues:***
+  ***Issues:***
 
-    - Matched items are currently reclickable: matched items should not be clickable again until board is reset.
-    -Board should reset after all 6 matches have been made/found
+  - Matched items are currently reclickable: matched items should not be clickable again until board is reset.
+
+  - Board should reset after all 6 matches have been made/found
 
   ***Planned Features:***
 
-    -Adding in Customized Fortunes
+  - Adding in Customized Fortunes
 
-    -Adding in a 2 player option
+  - Adding in a 2 player option
 
-    -Adding a Fortune Number display that displays number of clicks on the board
+  - Adding a Fortune Number display that displays number of clicks on the board
 
-    -Adding in a personalized message to the player
+  - Adding in a personalized message to the player
 
-    -Adding in a game over message
+  - Adding in a game over message
 
-    -Adding in a reset button and function to reset the game
+  - Adding in a reset button and function to reset the game
 
 ## User Stories:
 
@@ -68,10 +69,11 @@
 
 ***Icebox:***
 
-    - As a player, I would like to see a 'score' to see how many attempts I have made thus far, so that I can see progress.
+  - As a player, I would like to see a 'score' to see how many attempts I have made thus far, so that I can see progress.
 
-    - As the computer, I would like to know your name, so I can personalize messages to the player.
-    - As a player, I would like to see my messages personalized with my name, so I feel special.
+  - As the computer, I would like to know your name, so I can personalize messages to the player.
+
+  - As a player, I would like to see my messages personalized with my name, so I feel special.
 
 
 
