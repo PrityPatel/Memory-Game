@@ -1,26 +1,26 @@
 
 # The Fortune Memory Game
 
-  ## Game Description:
+## Game Description:
 
   (ADD DESCRIPTON HERE)
 
-  ## Technologies Used:
+## Technologies Used:
 
   - HTML used for the page structure
   - CSS used for styling the page
   - jQuery for DOM Manipulation
   - Javascript for game logic
 
-  ## Design Approach:
+## Design Approach:
 
   (ADD DESCRIPTON HERE)
 
-  ## Installation Instructions (Getting Started):
+## Installation Instructions (Getting Started):
 
   (ADD DESCRIPTON HERE)
 
-  ## Unsolved problems & issues and/or planned features:
+## Unsolved problems & issues and/or planned features:
 
   -Issues:
     -Matched items are currently reclickable: matched items should not be clickable again until board is reset.
@@ -55,21 +55,18 @@
 
     - As a player, I would like to see something when the game is over or I have completed the board, because it provides for completion.
 
-    - As a player, I would like to get feedback on what to do next once I have completed the board,
+    - As a player, I would like to get feedback on what to do next once I have completed the board.
+    - As a player, I would like to win or unlock a prize once the board is complete, because it provides incentive.
+
 
 
 ***Icebox:***
 
-  - As a player, I would like to see a 'score' to see how many attempts I have made thus far, so that I can see progress.
+    - As a player, I would like to see a 'score' to see how many attempts I have made thus far, so that I can see progress.
 
-  - As the computer, I would like to know your name, so I can personalize messages to the player.
+    - As the computer, I would like to know your name, so I can personalize messages to the player.
 
-  - As a player, I would like to see my messages personalized with my name, so I feel special.
-
-
-  - **Completed-**
-
-    - As a player, I would like to win or unlock a prize once the board is complete, because it provides incentive.
+    - As a player, I would like to see my messages personalized with my name, so I feel special.
 
 
 
