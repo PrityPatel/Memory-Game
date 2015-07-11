@@ -59,7 +59,6 @@ $squares.on("click", function() {
   totalClicks++;
   console.log("checking the match of these objects in the array: " + checkMatch);
   console.log("total clicks thus far: " + totalClicks);
-  console.log("how many matches thus far: " + totalMatches);
   clickMatch();
 }
 });
@@ -70,8 +69,8 @@ function clickMatch() {
       checkMatch= [];
       totalMatches++;
       matchesMade();
-      console.log("how many matches thus far: " + totalMatches);
       console.log("Match Made!")
+      console.log("how many matches thus far: " + totalMatches);
       matchAttempt = 0;
       return;
     } else {
