@@ -50,7 +50,7 @@ $(function() {
   var totalClicks = 0;
   //setting variable to keep track of how many total clicks were made on the baord as this number will be the Fortune Number that is alerted to the player once all 6 matches are made.
 
-  //i realize ``` $(this).addClass(arr[parseInt(this.id)]) ``` adds the respective image class onto to the board, though i'm not sure exactly how.
+  //``` $(this).addClass(arr[parseInt(this.id)]) ``` adds the respective image class onto to the board.
   //putting console log elements into long form english, so that it easy for my 'new to coding' brain make sense of what is appearing.
   $squares.on("click", function() {
     if (matchAttempt < 2) {
@@ -86,7 +86,6 @@ $(function() {
       $("." + checkMatch[1]).removeClass(checkMatch[1]);
       checkMatch = [];
       matchAttempt = 0;
-      alert("Keep Calm and Focus. Your Fortune Is Tied To Your Focus!");
     }, 900);
   }
 
